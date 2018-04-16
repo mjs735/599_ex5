@@ -1,0 +1,108 @@
+
+
+
+
+<article class="highlightslist <% if (pageID == 'home') { %>jumbotron hidden-xs<% } %>">
+  <div class="container-fluid">
+    <div class="row">
+        <% highlights.forEach(function(item) { %>
+        <div class="<% if (pageID == 'home') { %>col-lg-3 col-md-4 col-sm-6 text-center<% } else { %>col-sm-12 <% } %>">
+          <h3 class="highlightslist-title"><%= item.site %></h3>
+          <h5 class="highlightslist-name">with <a href="/highlights/<%= item.id %>"><%= item.site %></a></h5>
+          <div class="highlightslist-info">
+            <a href="/highlights/<%= item.id %>">
+
+              <% if (pageID == 'home') { %>
+                <img class="highlightslist-img img-circle" style="width:250px; height:200px" src="<%= item.image %>" alt="Photo of <%= item.site %>" width="300"></a>
+              <% } %>
+
+
+
+              <% if (pageID == 'highlightList') { %>
+
+              <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                      <img class="highlightslist-img img-circle pull-left" src="<%= item.image %>" alt="Photo of <%= item.site %>" width="300">
+                    </div>
+                    <div class="col-sm-6">
+                      <iframe src="<%= item.videoEmbed %>" style="width:300px; height:200px"></iframe>
+                    </div>
+                </div>
+                </div>
+              </div>
+
+              </a>
+              <% } %>
+            </a>
+
+
+
+            <% if (pageID == 'highlightDetail') { %>
+              <img class="highlightslist-img img-responsive pull-left" src="<%= item.image %>" alt="Photo of <%= item.site %>" width="800"></a>
+            <% } %>
+          </a>
+
+
+
+            <% if (pageID !== 'home') { %>
+              <% if (pageID == 'highlightList') { %>
+                <%= item.category %>
+              <% } else { %>
+                <%- item.info %>
+
+                <!--Video embed here:-->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <iframe src="<%= item.videoEmbed %>" style="width:300px; height:200px"></iframe>
+    </div>
+          <!--:Video embed-->
+
+    <div class="col-md-6">
+            <!--Map embed:-->
+      <div id="map" style="width:300px; height:200px"></div>
+        <script>
+          var map;
+          var pin = {lat: <%= item.lat %>, lng: <%= item.long %>};
+
+          function initMap() {
+          //  console.log('Inside initMap'),
+            map = new google.maps.Map(document.getElementById('map'), {
+              zoom : 14,
+              center:  {
+                lat: 43.101196,
+                lng: -77.442313
+              },
+              minZoom: 5,
+              maxZoom: 20,
+              mapTypeId: google.maps.MapTypeId.ROADMAP,
+              draggable: true,
+              scrollwheel: false
+            });
+            var marker = new google.maps.Marker({
+              position: pin,
+              map: map
+            });
+        }
+        </script>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD31cEmoWTi963N_Cy6MgivkTzlsjIGR18&callback=initMap" async defer>
+        </script>
+          <!--:Map embed-->
+    </div>
+  </div>
+</div>
+
+
+
+              <% } %>
+            <% } %>
+
+          </div>
+        </div>
+        <%  }); %>
+    </div><!-- row -->
+  </div><!-- container -->
+</article>

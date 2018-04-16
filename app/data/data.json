@@ -1,24 +1,87 @@
-{
-  "speakers": [{
-    "title" : "Art in Full Bloom",
-    "name": "Lorenzo Garcia",
-    "shortname" : "Lorenzo_Garcia",
-    "summary" : "Drawing and painting flowers may seem like a first-year art student's assignment, but Lorenzo Garcia brings depth, shadows, light, form and color to new heights with his unique and revolutionary technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs.",
-    "description": "<p>Lorenzo was born in Mexico, but grew up in Southern California after his mother immigrated to Los Angeles when he was a year old. His mother worked as a seamstress in the Fashion District and brought home scrap materials for Lorenzo to create his early mixed media art. From that point on, Lorenzo became hooked on creating art from scrap metals, fabrics, wood, canvas, and many others. During his junior year at Bischon Art School in Los Angeles, he perfected his own proprietary method of painting on canvas with ceramic glaze, which he will demonstrate on Monday in his session, 'Art in Full Bloom'.</p><p>Lorenzo paints with an extraordinary amount of color, and prefers to create art centered around nature, animals, and science. Now in his senior year at Bischon, Lorenzo has been creating mixed media totem poles made from old telephone poles, and other recycled materials, and is already planning his next new technique that will likely inspire a trend for years to come.</p>",
-    "artwork": ["Lorenzo_Garcia_01_tn.jpg", "Lorenzo_Garcia_02_tn.jpg", "Lorenzo_Garcia_03_tn.jpg", "Lorenzo_Garcia_04_tn.jpg"]
-  },{
-    "title" : "Deep Sea Wonders",
-    "name": "Hilary Goldywynn Post",
-    "shortname" : "Hillary_Goldwynn",
-    "summary": "Hillary is a sophomore art sculpture student at New York University, and has won the major international prizes for painters, including the Divinity Circle and the International Painter's Medal. Hillary's exhibit features paintings that contain only water including waves, deep sea, and river.",
-    "description": "<p>Hillary is a sophomore art sculpture student at New York University, and has already won all the major international prizes for new painters, including the Divinity Circle, the International Painter's Medal, and the Academy of Paris Award. Hillary's CAC exhibit features paintings that contain only water images including waves, deep sea, and river.</p><p>An avid water sports participant, Hillary understands the water in many ways in which others do not, or may not ever have the opportunity. Her goal in creating the CAC exhibit was to share with others the beauty, power, and flow of natural bodies of water throughout the world. In addition to the display, Hilary also hosts a session on Tuesday called Deep Sea Wonders, which combines her love of deep sea diving and snorkeling, with instruction for capturing the beauty of underwater explorations on canvas.</p>",
-    "artwork" : ["Hillary_Goldwynn_01_tn.jpg" , "Hillary_Goldwynn_02_tn.jpg" , "Hillary_Goldwynn_03_tn.jpg" , "Hillary_Goldwynn_04_tn.jpg" , "Hillary_Goldwynn_05_tn.jpg" , "Hillary_Goldwynn_06_tn.jpg" , "Hillary_Goldwynn_07_tn.jpg"]
-  },{
-    "title" : "The Art of Abstract",
-    "name": "Riley Rudolph Rewington",
-    "shortname" : "Riley_Rewington",
-    "summary": "The leader of the MMA artistic movement in his hometown of Portland, Riley Rudolph Rewington draws a crowd wherever he goes. Mixing street performance, video, music, and traditional art, Riley has created some of the most unique and deeply poignant abstract works of his generation.",
-    "description": "<p>Riley started out as musician and street performance artist, and now blends painting and photography with audio, video, and computer multimedia to create what he calls 'Music and Multimedia Artworks.' Riley's innovations in using multimedia to express art have created a youth culture movement in his town of Portland, in which he remains at the forefront. In his role as the founder of the MMA art form, Riley has become an inspiration to many up and coming artists. However, the part Riley insists is most important to him, is that he's helped many troubled youth take control of their lives, and create their own unique, positive futures. Seeing kids he's mentored graduate from high school and enroll in college, gives art the purpose that Riley so craves.</p><p>A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley's exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind's eye. Riley will be speaking on the 'Art of Abstract' during Thursday's schedule.</p>",
-    "artwork" : ["Riley_Rewington_01_tn.jpg","Riley_Rewington_02_tn.jpg","Riley_Rewington_03_tn.jpg","Riley_Rewington_04_tn.jpg","Riley_Rewington_05_tn.jpg","Riley_Rewington_06_tn.jpg"]
-  }]
+{"data":
+  {
+    "bgImage": "http://www.eriecanal.org/Fairport/bridge-west-4.jpg",
+    "highlights":[
+      {"id":"1",
+        "site":"Church of the Assumption",
+        "category":"Church",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "43.105135",
+        "long": "-77.440363",
+        "image": "https://i.pinimg.com/originals/b8/0c/83/b80c83fd05560b7a58a6aa69da91fd2c.jpg",
+        "video": "https://www.youtube.com/watch?v=-m6vuEXFz8A",
+        "videoEmbed":"https://www.youtube.com/embed/-m6vuEXFz8A"
+      },
+      {"id":"2",
+        "site":"Fairport Village Inn",
+        "category":"Inn",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "43.104755",
+        "long": "-77.442192",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Green-lantern-inn-fairport-ny.JPG",
+        "video": "https://www.youtube.com/watch?v=oBWJ7ULDxLQ",
+        "videoEmbed":"https://www.youtube.com/embed/oBWJ7ULDxLQ"
+      },
+      {"id":"3",
+        "site":"Erie Canal Boat Company",
+        "category":"Canal",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "43.102738",
+        "long": "-77.443196",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Snow_on_the_Erie_Canal_trail_by_sailorbill.jpg",
+        "video": "https://www.youtube.com/watch?v=GHbZHledSYE",
+        "videoEmbed":"https://www.youtube.com/embed/GHbZHledSYE"
+      },
+      {"id":"4",
+        "site":"Colonial Belle – Erie Canal Tour",
+        "category":"Canal",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "43.100724",
+        "long": "-77.440685",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Erie_Canal_Cruise_-_Colonial_Belle.jpg",
+        "video": "https://www.youtube.com/watch?v=14jQ1M2kaE4",
+        "videoEmbed":"https://www.youtube.com/embed/14jQ1M2kaE4"
+      },
+      {"id":"5",
+        "site":"Fairport Historical Museum",
+        "category":"Public Building",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "43.100372",
+        "long": "-77.444258",
+        "image": "http://www.gannett-cdn.com/-mm-/88acf9b4357fa1937c71d54c62c0043a8f7ef0d5/c=191-0-2923-2049&r=x404&c=534x401/local/-/media/2016/09/14/Rochester/B9323583946Z.1_20160914142725_000_G6DFN9IKK.1-0.jpg",
+        "video": "https://www.youtube.com/watch?v=SP4AKs8qOCA",
+        "videoEmbed":"https://www.youtube.com/embed/SP4AKs8qOCA"
+      },
+      {"id":"6",
+        "site":"Fairport Village Hall",
+        "category":"Town Hall",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "43.100517",
+        "long": "-77.441369",
+        "image": "http://media.democratandchronicle.com/sites/default/files/styles/before_after/public/ROC-1201-BEFOREFairport.jpg?itok=dGpJrz7T",
+        "video": "https://www.youtube.com/watch?v=KeJLYoCUkpg",
+        "videoEmbed":"https://www.youtube.com/embed/KeJLYoCUkpg"
+      },
+      {"id":"7",
+        "site":"Fairport Public Library",
+        "category":"Public Building",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "43.101196",
+        "long": "-77.442313",
+        "image": "http://halemfg.com/wp-content/uploads/2016/01/FullSizeRender3.jpg",
+        "video": "https://www.youtube.com/watch?v=AmFNj-MFmps",
+        "videoEmbed":"https://www.youtube.com/embed/AmFNj-MFmps"
+      },
+      {"id":"8",
+        "site":"Fairport Lift Bridge",
+        "category":"Village landmark",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "lat": "43.101196",
+        "long": "-77.442313",
+        "image": "http://www.laserlab.net/fairport12a.jpg",
+        "video": "https://www.youtube.com/watch?v=ICyFgBMum_Y",
+        "videoEmbed": "https://www.youtube.com/embed/ICyFgBMum_Y"
+      }
+    ]
+  }
 }
